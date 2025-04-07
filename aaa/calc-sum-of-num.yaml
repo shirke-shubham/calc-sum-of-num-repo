@@ -8,14 +8,14 @@ metadata:
     executables.ai.sap.com/description: "Calculate sum of numbers from dataset-4"
     executables.ai.sap.com/name: "New Docker Image-4"
   labels:
-    scenarios.ai.sap.com/id: "learning-code-1"
+    scenarios.ai.sap.com/id: "learning-code-2"
     ai.sap.com/version: "2.0"
 spec:
    imagePullSecrets:
     - name: credstutorialrepo # your docker registry secret
   entrypoint: mycodeblock1
   templates:
-  - name: mypipeline
+  - name: mypipeline 
     steps:
     - - name: mypredictor
         template: mycodeblock1
