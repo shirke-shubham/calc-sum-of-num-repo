@@ -21,7 +21,7 @@ spec:
         template: mycodeblock1
    - name: mycodeblock1
     container:
-      image: docker.io/shirke0706/sum_of_num:04 # Your docker image name 
+      image: docker.io/shirke0706/sum_of_num:03 # Your docker image name 
       command: ["/bin/sh", "-c"]
       args: 
         - "python /app/main.py" 
