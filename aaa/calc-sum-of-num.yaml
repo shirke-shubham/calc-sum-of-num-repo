@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 metadata:
-  name: deploymentsumofnumber4 # executable id, must be unique across all your workflows (YAML files), please modify this to any value (e.g. code-pipeline-12345) if you are not the only user of your SAP AI Core instance.
+  name: deploymentsumofnumber5 # executable id, must be unique across all your workflows (YAML files), please modify this to any value (e.g. code-pipeline-12345) if you are not the only user of your SAP AI Core instance.
   annotations:
     scenarios.ai.sap.com/description: "Calculate sum of numbers from dataset-4"
     scenarios.ai.sap.com/name: "CalculateSum-4"
     executables.ai.sap.com/description: "Calculate sum of numbers from dataset-4"
     executables.ai.sap.com/name: "New Docker Image-4"
   labels:
-    scenarios.ai.sap.com/id: "learning-code-2"
+    scenarios.ai.sap.com/id: "learning-code-3"
     ai.sap.com/version: "2.0"
 spec:
    imagePullSecrets:
